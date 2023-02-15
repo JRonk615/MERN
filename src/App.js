@@ -1,6 +1,7 @@
 import './App.css';
 import Person from './components/Person';
 import PersonCard from './components/PersonCard';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       age = {1}
       hairColor = {'brown'}
       />
-
+    <button onClick={ ()=> alert("This button has been clicked!") }>Click Me</button>
+    <Counter/>
     </div>
   );
 }
